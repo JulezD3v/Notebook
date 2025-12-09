@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "358079743770",
+    "project_id": "flutternotebook-2c3bc",
+    "storage_bucket": "flutternotebook-2c3bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358079743770:android:893d3cd482e4216f31cea3",
+        "android_client_info": {
+          "package_name": "com.example.notebook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh-hNpIxod9lT-WReuQ5Liwy-YnrorCVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

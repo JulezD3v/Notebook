@@ -21,7 +21,10 @@ class Note {
   factory Note.fromJson(Map<String, dynamic> json) => _$NoteFromJson(json);
   Map<String, dynamic> toJson() => _$NoteToJson(this);
 
-  // Helper for Firestore to Note conversion
+
+//FINALLY FIXED THE BUG
+
+  // Helper for Firestore to Note conversion   
   factory Note.fromFirestore(DocumentSnapshot doc) {
     final data = doc.data() as Map<String, dynamic>;
     return Note.fromJson(data).copyWith(id: doc.id);

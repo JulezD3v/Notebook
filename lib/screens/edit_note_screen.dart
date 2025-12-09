@@ -103,7 +103,9 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // Title Field
+            
+
+            
             TextField(
               controller: _titleController,
               decoration: const InputDecoration(
@@ -115,7 +117,8 @@ class _EditNoteScreenState extends State<EditNoteScreen> {
               style: Theme.of(context).textTheme.headlineSmall,
             ),
             const SizedBox(height: 10),
-            // Content Field
+         
+
             Expanded(
               child: TextField(
                 controller: _contentController,
